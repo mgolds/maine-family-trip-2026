@@ -466,6 +466,105 @@ table a {
   margin-bottom: 0.25rem;
 }
 
+/* —— Places / map links —— */
+.place-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+  margin: 1.25rem 0;
+}
+
+.place-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.1rem 1.15rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  box-shadow: var(--shadow);
+}
+
+.place-card h3,
+.place-card h4 {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.place-role {
+  margin: 0;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--teal);
+}
+
+.place-address {
+  display: block;
+  font-size: 0.98rem;
+  line-height: 1.4;
+  color: var(--navy);
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
+  -webkit-user-select: all;
+  user-select: all;
+  word-break: break-word;
+  padding: 0.35rem 0;
+}
+
+.place-address:hover {
+  color: var(--coral);
+}
+
+.place-note {
+  margin: 0;
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+
+.place-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.35rem;
+}
+
+.place-actions .btn {
+  flex: 1 1 auto;
+  min-width: 7.5rem;
+}
+
+.place-inline {
+  display: inline;
+  -webkit-user-select: all;
+  user-select: all;
+  font-weight: 600;
+}
+
+.callout .place-actions {
+  margin-top: 0.75rem;
+}
+
+.map-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--teal);
+  text-decoration: none;
+  border-bottom: 1.5px solid currentColor;
+  -webkit-user-select: all;
+  user-select: all;
+  touch-action: manipulation;
+}
+
+.map-chip:hover {
+  color: var(--coral);
+}
+
 /* —— Checklist —— */
 .checklist {
   list-style: none;
@@ -973,6 +1072,14 @@ table a {
 
   .checklist li {
     padding: 0.9rem 1rem;
+  }
+
+  .place-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .place-actions .btn {
+    min-height: var(--touch);
   }
 
   .logo {

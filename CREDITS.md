@@ -1,31 +1,10 @@
 # Credits
 
-Photo and video sources for the Goldsberry Maine Trip 2026 website. Images are used for personal family trip planning.
-
 ## Photos
 
-Photos were downloaded from **Unsplash** (free license for personal use) for illustrative previews of coastal Maine, Acadia National Park scenery, harbors, mountains, and water activities. They are representative of the places on the itinerary and are not official park photography.
+Trip photos on this site are family-provided pictures from this Maine trip (not stock photos from Unsplash or similar libraries). The Goldsberry family shared them for personal trip-planning use.
 
-Unsplash photos used include:
-
-| Local file | Unsplash photo ID / theme |
-|---|---|
-| `shared/hero-acadia.jpg` | Bass Harbor Head Light (`photo-1668269518274-748b170241a9`) |
-| `shared/cadillac-sunrise.jpg` | Mountain sunrise overlook |
-| `shared/jordan-pond.jpg` | Clear mountain lake |
-| `shared/sand-beach.jpg` | Sandy beach |
-| `shared/bar-harbor.jpg` | Coastal Italian/harbor town feel (placeholder for Bar Harbor vibe) |
-| `shared/portland-waterfront.jpg` | City waterfront skyline |
-| `day-01/*` | Old Port / harbor / street scenes |
-| `day-02/*` | Ferry, island coast, promenade, fort ruins |
-| `day-03/*` | Harbor, summit tower views, arrival |
-| `day-04/*` | Summit, cliffs, ocean path, rocky coast |
-| `day-05/*` | Bubble Rock granite, pond shore, sandbar |
-| `day-06/*` | Kayaking, Bass Harbor Light, rocky shore |
-| `day-07/*` | Coastal scramble, lobster boat, seals |
-| `day-08/*` | Harbor departure, coastal towns |
-
-License: [Unsplash License](https://unsplash.com/license) — free to use without permission for personal and commercial projects; no requirement to credit, but photographers are appreciated.
+Filenames were normalized to kebab-case for the web (spaces removed); image content is unchanged.
 
 ## Videos
 
@@ -42,30 +21,16 @@ Embedded videos are hosted on **YouTube**. Copyright belongs to the respective u
 
 ## Trail links
 
-Trail cards link to **AllTrails** pages for:
-
-- Mount Battie
-- Ocean Path
-- Gorham Mountain Loop
-- South Bubble / Bubble Rock
-- Jordan Pond Path
-- Bar Island Trail
-- Wonderland Trail
-- Ship Harbor Trail
-- Beech Mountain
-- Acadia Mountain
-- Great Head Trail
-- The Beehive Loop Trail
+Trail cards link to **AllTrails** for Mount Battie, Ocean Path, Gorham Mountain, South Bubble, Jordan Pond Path, Bar Island, Wonderland, Ship Harbor, Beech Mountain, Acadia Mountain, Great Head, and The Beehive.
 
 ## Official resources
 
 - [National Park Service — Acadia](https://www.nps.gov/acad/)
-- [Recreation.gov](https://www.recreation.gov/) — Cadillac Summit Road vehicle reservations
-- [Casco Bay Lines](https://www.cascobaylines.com/) — Peaks Island ferry
-- [Bar Harbor Whale Watch](https://www.barharborwhales.com/) — lobster and seal-watching cruises
-- [Camden Hills State Park](https://www.maine.gov/dacf/parks/) — Mount Battie auto road
+- [Recreation.gov](https://www.recreation.gov/) — Cadillac Summit Road reservations
+- [Casco Bay Lines](https://www.cascobaylines.com/)
+- [Bar Harbor Whale Watch](https://www.barharborwhales.com/)
 
 ## Fonts
 
-- [Fraunces](https://fonts.google.com/specimen/Fraunces) — Google Fonts
-- [Source Sans 3](https://fonts.google.com/specimen/Source+Sans+3) — Google Fonts
+- [Fraunces](https://fonts.google.com/specimen/Fraunces)
+- [Source Sans 3](https://fonts.google.com/specimen/Source+Sans+3)

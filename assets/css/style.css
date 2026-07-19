@@ -591,6 +591,21 @@ table a {
   color: var(--coral);
 }
 
+h2 .map-chip,
+h3 .map-chip {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
+  border-bottom-width: 2px;
+  border-bottom-color: var(--teal);
+}
+
+h2 .map-chip:hover,
+h3 .map-chip:hover {
+  color: var(--coral);
+}
+
 /* —— Day resources —— */
 .resource-section h2 {
   margin-bottom: 0.35rem;

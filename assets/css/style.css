@@ -532,8 +532,8 @@ table a {
 }
 
 .place-actions .btn {
-  flex: 1 1 auto;
-  min-width: 7.5rem;
+  flex: 1 1 100%;
+  min-width: 0;
 }
 
 .place-inline {

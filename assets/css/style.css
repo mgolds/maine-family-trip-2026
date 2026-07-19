@@ -466,74 +466,95 @@ table a {
   margin-bottom: 0.25rem;
 }
 
-/* —— Places / map links —— */
+/* —— Places / map links (compact) —— */
 .place-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 1rem;
-  margin: 1.25rem 0;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 0.5rem;
+  margin: 0.75rem 0;
 }
 
 .place-card {
   background: var(--white);
   border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 1.1rem 1.15rem;
+  border-radius: var(--radius-sm);
+  padding: 0.55rem 0.7rem;
   display: flex;
   flex-direction: column;
-  gap: 0.45rem;
-  box-shadow: var(--shadow);
+  gap: 0.15rem;
+  box-shadow: none;
 }
 
 .place-card h3,
 .place-card h4 {
   margin: 0;
-  font-size: 1.05rem;
+  font-size: 0.92rem;
+  line-height: 1.25;
+  font-family: var(--font-body);
+  font-weight: 700;
 }
 
 .place-role {
   margin: 0;
-  font-size: 0.78rem;
+  font-size: 0.68rem;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.03em;
   color: var(--teal);
+  line-height: 1.2;
 }
 
 .place-address {
   display: block;
-  font-size: 0.98rem;
-  line-height: 1.4;
+  font-size: 0.82rem;
+  line-height: 1.35;
   color: var(--navy);
   text-decoration: underline;
-  text-decoration-thickness: 1.5px;
-  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
   -webkit-user-select: all;
   user-select: all;
   word-break: break-word;
-  padding: 0.35rem 0;
+  padding: 0.1rem 0;
 }
 
 .place-address:hover {
   color: var(--coral);
 }
 
+.place-address::after {
+  content: " · Maps";
+  font-weight: 700;
+  color: var(--teal);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
 .place-note {
   margin: 0;
-  font-size: 0.88rem;
+  font-size: 0.75rem;
+  line-height: 1.35;
   color: var(--text-muted);
+}
+
+/* Address already opens Apple Maps — hide redundant full-width buttons */
+.place-card .place-actions {
+  display: none;
 }
 
 .place-actions {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-top: 0.35rem;
+  gap: 0.4rem;
+  margin-top: 0.25rem;
 }
 
 .place-actions .btn {
-  flex: 1 1 100%;
+  flex: 1 1 auto;
   min-width: 0;
+  min-height: 2rem;
+  padding: 0.35rem 0.65rem;
+  font-size: 0.8rem;
 }
 
 .place-inline {
@@ -544,7 +565,12 @@ table a {
 }
 
 .callout .place-actions {
-  margin-top: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.callout .place-grid {
+  margin-top: 0.65rem;
+  margin-bottom: 0;
 }
 
 .map-chip {
@@ -567,15 +593,16 @@ table a {
 
 /* —— Day resources —— */
 .resource-section h2 {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.35rem;
 }
 
 .resource-intro {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
+  font-size: 0.98rem;
 }
 
 .resource-group {
-  margin-bottom: 1.75rem;
+  margin-bottom: 1.15rem;
 }
 
 .resource-group:last-child {
@@ -583,25 +610,33 @@ table a {
 }
 
 .resource-group > h3 {
-  font-size: 1.1rem;
-  margin: 0 0 0.75rem;
-  padding-bottom: 0.4rem;
-  border-bottom: 2px solid var(--sand-dark);
+  font-size: 0.95rem;
+  margin: 0 0 0.5rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid var(--sand-dark);
 }
 
 .resource-emergency {
   border-left-color: #b91c1c;
   background: #fef2f2;
+  padding: 0.85rem 1rem;
+  margin: 0.85rem 0 1rem;
 }
 
 .resource-emergency .callout-label {
   color: #b91c1c;
 }
 
+.resource-emergency > p {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
 .resource-tip {
-  font-size: 0.92rem;
+  font-size: 0.8rem;
   color: var(--text-muted);
-  margin: 0.5rem 0 0;
+  margin: 0.4rem 0 0;
+  line-height: 1.4;
 }
 
 .tel-link {
@@ -1127,10 +1162,22 @@ table a {
 
   .place-grid {
     grid-template-columns: 1fr;
+    gap: 0.4rem;
+  }
+
+  .place-card {
+    padding: 0.5rem 0.65rem;
+  }
+
+  .place-note {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
 
   .place-actions .btn {
-    min-height: var(--touch);
+    min-height: 2rem;
   }
 
   .logo {

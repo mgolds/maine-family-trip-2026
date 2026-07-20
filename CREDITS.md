@@ -8,16 +8,21 @@ Filenames were normalized to kebab-case for the web (spaces removed); image cont
 
 ## Videos
 
-Embedded videos are hosted on **YouTube**. Copyright belongs to the respective uploaders and channels.
+Embedded videos are hosted on **YouTube**. Copyright belongs to the respective uploaders and channels. Each day page features videos matched to that day’s activities.
 
-| Video | YouTube ID | Used on |
-|-------|------------|---------|
-| Things to Do in Portland, Maine | `QkozeJEsKg4` | Day 1, Day 2 |
-| Scenic Road Trip Guide to Maine’s Coast | `ppKizHL2M9Y` | Day 1, 2, 7, 8 |
-| Top 5 Things to Do in Acadia National Park | `UZ-_WFV65f4` | Day 3, 4, 5 |
-| Bar Harbor travel guide | `aJccK-GvNaU` | Day 3, 6, 7 |
-| Ocean Path Trail | `TnkAyzXawyA` | Day 4 |
-| Acadia Always (documentary) | `pRLGWz8CluM` | Day 5, 6, 8 |
+| Video | YouTube ID | Used for |
+|-------|------------|----------|
+| Things to Do in Portland, Maine | `QkozeJEsKg4` | Day 1 Old Port; Day 2 Peaks Island golf cart |
+| Portland mailboat / Casco Bay ferry | `49DIUKDGhY0` | Day 1–2 ferry preview |
+| Scenic Road Trip Guide to Maine’s Coast | `ppKizHL2M9Y` | Day 3 coastal drive; Day 8 return drive |
+| Maine Coastal Road Trip | `Ix23T9hVPZM` | Day 8 road trip south |
+| 10 Best Things to Do in Bar Harbor | `aJccK-GvNaU` | Day 3 arrival; Day 6 Bass Harbor Light; Day 7 boat/lobster |
+| Cadillac Mountain sunrise & Beehive | `VSPHnAP6qoI` | Day 4 sunrise; Day 7 Beehive |
+| Ocean Path Trail | `TnkAyzXawyA` | Day 4 Ocean Path |
+| Acadia Always (Bubble Rock / Jordan Pond) | `pRLGWz8CluM` | Day 5 Bubbles & Jordan Pond |
+| Top 5 Must-Do Activities at Acadia | `UZ-_WFV65f4` | Day 5 Jordan Pond & Bar Island |
+| Ship Harbor Trail | `vjTWXH0gZ7Y` | Day 6 Ship Harbor |
+| Hiking Great Head Trail | `8atghter7Tg` | Day 7 Great Head |
 
 ## Trail links
 
